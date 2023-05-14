@@ -60,19 +60,19 @@ if (e.target.classList.contains("icon")) {
         {value}
       </p>
      <div className="values-list">
-     <button className="icon" data-label="name" onMouseOver={handleValue} onClick={handleValue}>
+     <button className="icon" data-label="name" onMouseOver={handleValue} >
        <FaUser/>
       </button>
-      <button className="icon" data-label="email" onMouseOver={handleValue} onClick={handleValue}>
+      <button className="icon" data-label="email" onMouseOver={handleValue} >
        <FaEnvelopeOpen/>
       </button>
-      <button className="icon" data-label="age" onMouseOver={handleValue} onClick={handleValue}>
+      <button className="icon" data-label="age" onMouseOver={handleValue}>
        <FaCalendarDay/>
       </button>
-      <button className="icon" data-label="street" onMouseOver={handleValue} onClick={handleValue}>
+      <button className="icon" data-label="street" onMouseOver={handleValue} >
        <FaMapMarker/>
       </button>
-      <button className="icon" data-label="phone" onMouseOver={handleValue} onClick={handleValue}>
+      <button className="icon" data-label="phone" onMouseOver={handleValue} >
    <FaPhone/>
       </button>
 
